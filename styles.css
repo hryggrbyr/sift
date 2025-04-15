@@ -1,5 +1,5 @@
-@import '/css/reset.css';
-@import '/css/sidebar.css';
+@import './css/reset.css';
+@import './css/sidebar.css';
 
 :root {
   color-scheme: light dark;

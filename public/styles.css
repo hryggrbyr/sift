@@ -1,0 +1,120 @@
+/* css/reset.css */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin-block-end: 0;
+}
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+  line-height: 1.1;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+textarea:not([rows]) {
+  min-height: 10em;
+}
+:target {
+  scroll-margin-block: 5ex;
+}
+
+/* css/sidebar.css */
+.layout {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+.sidebar {
+  flex-basis: 25vw;
+}
+.sidebar-content {
+  position: sticky;
+  top: 0;
+  height: calc(100vh - calc(2 * 5vh));
+  overflow-y: auto;
+}
+.main-content {
+  flex-grow: 1;
+}
+
+/* styles.css */
+:root {
+  color-scheme: light dark;
+  --color-accent: light-dark(teal, goldenrod);
+}
+body {
+  background-color: canvas;
+  color: canvasText;
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+.sidebar {
+  background-color: light-dark(#eee, #333);
+  color: light-dark(dimgray, whitesmoke);
+  border-right: 2px solid var(--color-accent);
+}
+.sidebar-content {
+  padding-block: 2vh;
+  padding-inline: 2ch;
+}
+.main-content {
+  padding-block: 2vh;
+  padding-inline: 4ch;
+}
+.sidebar summary {
+  display: flex;
+  user-select: none;
+}
+.sidebar summary button:first-child {
+  margin-inline-start: auto;
+}

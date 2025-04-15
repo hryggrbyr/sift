@@ -1,15 +1,14 @@
-import { displayGroups } from './js/display-groups.js';
-import { fetchAndDisplayFeed } from './js/display-feed.js';
+import { fetchNewArticles } from './js/fetch-feeds.js';
 
-// Consolidate DOMContentLoaded event listeners
+// Run fetchNewArticles on page load
 document.addEventListener('DOMContentLoaded', () => {
-  console.log(1)
-  fetchAndDisplayFeed();
-  console.log(2)
-  displayGroups();
-
-  const refreshButton = document.querySelector('.refresh-btn');
-  if (refreshButton) {
-    refreshButton.addEventListener('click', fetchAndDisplayFeed);
-  }
+  fetchNewArticles();
 });
+
+// Add event listener for "Refresh Feeds" button
+const refreshButton = document.getElementById('refresh-feeds-button');
+if (refreshButton) {
+  refreshButton.addEventListener('click', () => {
+    fetchNewArticles();
+  });
+}
