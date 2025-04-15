@@ -1,6 +1,6 @@
 export async function fetchAndDisplayFeed() {
   try {
-    const response = await fetch('/data/feed.json');
+    const response = await fetch('/feed.json');
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }

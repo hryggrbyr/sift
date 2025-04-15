@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "esbuild script.js styles.css --outdir=public --bundle --platform=node",
+    "build": "esbuild ./script.js --outdir=public --bundle --platform=browser --target=es6",
     "start": "node server.js"
   },
   "keywords": [],
@@ -16,6 +16,7 @@
     "esbuild": "^0.19.0"
   },
   "dependencies": {
+    "esbuild-loader": "^4.3.0",
     "express": "^5.1.0",
     "fs": "^0.0.1-security",
     "node-fetch": "^3.3.2"

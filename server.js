@@ -17,14 +17,13 @@ app.get('/service-worker.js', (req, res) => {
   res.sendFile(path.resolve('public/service-worker.js'));
 });
 
-// Example fix: Ensure all routes with parameters have proper names
-app.get('/user/:id', (req, res) => {
-  // Handle the request using req.params.id
-  res.send(`User ID: ${req.params.id}`);
+// Serve the service worker
+app.get('/feed.json', (req, res) => {
+  res.sendFile(path.resolve('public/data/feed.json'));
 });
 
 // Fallback to index.html for SPA routing
-app.get('*', (req, res) => {
+app.get(/(.*)/, (req, res) => {
   res.sendFile(path.resolve('public/index.html'));
 });
 

@@ -1,11 +1,13 @@
-import fetch from 'node-fetch';
-import fs from 'fs/promises';
-
 export async function fetchNewArticles() {
   try {
     // Fetch feeds from data/feed.json
-    const feedsData = await fs.readFile('./data/feed.json', 'utf-8');
-    const feeds = JSON.parse(feedsData);
+    const response = await fetch('/feed.json');
+    const feeds = await response.json(); // Assuming the JSON structure matches the expected feeds format
+
+    if (feeds.length === 0) {
+      console.warn('No feeds found in feed.json');
+      return [];
+    }
 
     const newArticles = [];
 
@@ -29,8 +31,8 @@ export async function fetchNewArticles() {
       });
     }
 
-    // Save new articles to a file
-    await fs.writeFile('./data/articles.json', JSON.stringify(newArticles, null, 2));
+    // Save new articles to localStorage
+    localStorage.setItem('articles', JSON.stringify(newArticles));
 
     return newArticles;
   } catch (error) {
@@ -40,13 +42,11 @@ export async function fetchNewArticles() {
 }
 
 export function isNewArticle(pubDate, title) {
-  // Load existing articles from a file
+  // Load existing articles from localStorage
   let existingArticles = [];
   try {
-    const data = fs.readFileSync('./data/articles.json', 'utf-8');
-    if (data) {
-      existingArticles = JSON.parse(data);
-    }
+    const data = localStorage.getItem('articles');
+    existingArticles = data ? JSON.parse(data) : []; // Initialize as empty array if no data
   } catch (error) {
     console.warn('No existing articles found or unable to read data:', error);
   }
