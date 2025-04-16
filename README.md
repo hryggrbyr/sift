@@ -1,27 +1,32 @@
 # Sift App
 
-Sift is a simple web application built with Node.js and Express. It serves static files, supports single-page application (SPA) routing, and includes a manifest and service worker for Progressive Web App (PWA) functionality.
+Sift is a web application built with Eleventy for static site generation. It fetches and processes RSS feeds, caches responses for performance, and organizes content dynamically.
 
 ## Features
 
-- **Static File Serving**: Serves files from the `public` directory.
-- **SPA Routing**: Fallback to `index.html` for client-side routing.
-- **Manifest File**: Includes a `manifest.json` for PWA metadata.
-- **Service Worker**: Caches assets for offline functionality.
-- **Dynamic Routes**: Example route to handle user-specific requests (`/user/:id`).
+- **RSS Feed Aggregation**: Fetches and processes RSS feeds, caching responses for up to 1 year.
+- **Dynamic Content Grouping**: Groups feeds by categories and flags new articles.
+- **Static Site Generation**: Built with Eleventy for fast and efficient static site generation.
+- **Dark/Light Mode Support**: CSS variables for theme switching.
+- **Progressive Enhancement**: Includes modern web features like responsive design and accessibility.
 
 ## Project Structure
 
 ```
-/Users/thomas.rigby/Projects/personal/sift
-├── public
-│   ├── manifest.json
-│   ├── service-worker.js
-│   ├── index.html (not included, but expected)
-│   └── icons/
-│       ├── icon-192x192.png
-│       └── icon-512x512.png
-├── server.js
+/Users/thomas.rigby/Projects/personal/sift--v2
+├── src
+│   ├── _data
+│   │   ├── feeds.json
+│   │   └── rss.js
+│   ├── css
+│   │   └── styles.css
+│   ├── js
+│   │   └── main.js
+│   └── templates
+│       └── feed.njk
+├── dist
+│   └── ... (generated output)
+├── .eleventy.js
 └── README.md
 ```
 
@@ -37,7 +42,7 @@ Sift is a simple web application built with Node.js and Express. It serves stati
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd sift
+   cd sift--v2
    ```
 
 2. Install dependencies:
@@ -45,20 +50,26 @@ Sift is a simple web application built with Node.js and Express. It serves stati
    npm install
    ```
 
-3. Start the server:
+3. Run the Eleventy build:
    ```bash
-   node server.js
+   npx @11ty/eleventy
    ```
 
-4. Open the app in your browser:
+4. Start the development server:
+   ```bash
+   npx @11ty/eleventy --serve
    ```
-   http://localhost:3000
+
+5. Open the app in your browser:
+   ```
+   http://localhost:8080
    ```
 
 ### Notes
 
-- Ensure the `public/icons` directory contains the required icon files (`icon-192x192.png` and `icon-512x512.png`).
-- Modify the `manifest.json` and `service-worker.js` as needed to suit your app's requirements.
+- Ensure `feeds.json` contains valid RSS feed URLs.
+- Modify `rss.js` to customize RSS fetching and caching behavior.
+- Use `styles.css` to adjust the site's appearance.
 
 ## License
 

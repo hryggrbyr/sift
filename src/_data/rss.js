@@ -1,6 +1,9 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
+const Parser = require("rss-parser");
 const feeds = require("./feeds.json");
 const crypto = require("crypto");
+
+const parser = new Parser();
 
 module.exports = async function () {
   const ONE_YEAR = 60 * 60 * 24 * 365; // 1 year in seconds
@@ -10,16 +13,18 @@ module.exports = async function () {
     try {
       const response = await EleventyFetch(url, {
         duration: `${ONE_YEAR}s`,
-        type: "json",
+        type: "text", // Fetch as plain text
         fetchOptions: {
           headers: {
             "User-Agent": "Mozilla/5.0 (compatible; Eleventy/1.0)"
           }
         }
       });
-      return response;
+
+      // Parse the RSS feed using rss-parser
+      return await parser.parseString(response);
     } catch (error) {
-      console.error(`Failed to fetch ${url}:`, error);
+      console.error(`Failed to fetch or parse ${url}:`, error);
       return null;
     }
   };

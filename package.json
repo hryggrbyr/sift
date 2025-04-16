@@ -12,5 +12,10 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0"
+  },
+  "dependencies": {
+    "@11ty/eleventy-fetch": "^5.0.2",
+    "rss-parser": "^3.13.0",
+    "xml2js": "^0.6.2"
   }
 }

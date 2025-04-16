@@ -5,6 +5,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css/styles.css");
   eleventyConfig.addPassthroughCopy("src/js/main.js");
 
+  // Add a keys filter to get object keys
+  eleventyConfig.addFilter("keys", function (obj) {
+    return Object.keys(obj);
+  });
+
   // Group feeds by the 'group' parameter
   const groupedFeeds = feeds.reduce((acc, feed) => {
     const group = feed.group || "Ungrouped";
