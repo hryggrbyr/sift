@@ -1,0 +1,24 @@
+{% for group, items in groupedFeeds %}
+<details>
+  <summary>
+    <div class="el-text-button">
+      <p><strong>{{ group }}</strong></p>
+      <div class="button-group">
+        <button class="button" data-open>Open</button>
+        <a class="button" href="/groups/{{ group | slug }}/">View</a>
+      </div>
+    </div>
+  </summary>
+  <ul class="feed-list">
+    {% for item in items %}
+    <li>
+      <div class="el-text-button">
+        <p>{{ item.title }}</p>
+        <i data-unread>7</i>
+        <a class="button" href="/feed/{{ item.title | slug }}">View</a>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</details>
+{% endfor %}

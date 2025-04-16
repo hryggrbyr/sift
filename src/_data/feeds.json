@@ -1,0 +1,854 @@
+[
+  {
+    "title": "82MHz",
+    "url": "https://82mhz.net/index.xml",
+    "note": "",
+    "group": "8"
+  },
+  {
+    "title": "A Very Good Blog by Keenan",
+    "url": "https://gkeenan.co/avgb?format=rss",
+    "note": "",
+    "group": "A"
+  },
+  {
+    "title": "Adactio: Journal",
+    "url": "https://adactio.com/journal/rss",
+    "note": "",
+    "group": "A"
+  },
+  {
+    "title": "Adam Silver: designer and interface developer from London, UK",
+    "url": "https://adamsilver.io/atom.xml",
+    "note": "",
+    "group": "A"
+  },
+  {
+    "title": "Adële's smolweb site",
+    "url": "https://adele.pages.casa/md/blog/rss.xml",
+    "note": "",
+    "group": "A"
+  },
+  {
+    "title": "Adrian Roselli",
+    "url": "https://adrianroselli.com/feed",
+    "note": "",
+    "group": "A"
+  },
+  {
+    "title": "Aegir.org",
+    "url": "https://aegir.org/words/feed",
+    "note": "",
+    "group": "A"
+  },
+  {
+    "title": "Aleksandr Hovhannisyan",
+    "url": "https://www.aleksandrhovhannisyan.com/feed.xml",
+    "note": "",
+    "group": "A"
+  },
+  {
+    "title": "alex ink",
+    "url": "https://alexink.micro.blog/feed.xml",
+    "note": "",
+    "group": "A"
+  },
+  {
+    "title": "Analog.Cafe",
+    "url": "https://www.analog.cafe/rss",
+    "note": "",
+    "group": "A"
+  },
+  {
+    "title": "Andrew Canion",
+    "url": "https://canion.blog/feed.xml",
+    "note": "",
+    "group": "A"
+  },
+  {
+    "title": "Andy Bell",
+    "url": "https://andy-bell.co.uk/feed.xml",
+    "note": "",
+    "group": "A"
+  },
+  {
+    "title": "Annie",
+    "url": "https://anniemueller.com/posts_feed",
+    "note": "",
+    "group": "A"
+  },
+  {
+    "title": "Another angry woman",
+    "url": "https://anotherangrywoman.com/feed/",
+    "note": "",
+    "group": "A"
+  },
+  {
+    "title": "Articles - Amy Hupe",
+    "url": "https://amyhupe.co.uk/atom.xml",
+    "note": "",
+    "group": "A"
+  },
+  {
+    "title": "Autistic As Fxxk",
+    "url": "https://www.autisticasfxxk.com/index.xml",
+    "note": "",
+    "group": "A"
+  },
+  {
+    "title": "ava's tech blog",
+    "url": "https://avas.bearblog.dev/feed/?type=rss",
+    "note": "",
+    "group": "A"
+  },
+  {
+    "title": "Ben Werdmüller",
+    "url": "https://werd.io/?_t=rss",
+    "note": "",
+    "group": "B"
+  },
+  {
+    "title": "Big Bearded Bookseller",
+    "url": "http://www.bigbeardedbookseller.com/feed/",
+    "note": "",
+    "group": "B"
+  },
+  {
+    "title": "BinaryDigit ˗ˏˋ★ˊˎ˗",
+    "url": "https://binarydigit.city/feed/",
+    "note": "",
+    "group": "B"
+  },
+  {
+    "title": "Bob Monsour | Home",
+    "url": "https://www.bobmonsour.com/feed.xml",
+    "note": "",
+    "group": "B"
+  },
+  {
+    "title": "but she's a girl...",
+    "url": "https://www.rousette.org.uk/index.xml",
+    "note": "",
+    "group": "B"
+  },
+  {
+    "title": "Cheshire based Human Centered Designer - Cathy Dutton",
+    "url": "https://cathydutton.co.uk/feed.xml",
+    "note": "",
+    "group": "C"
+  },
+  {
+    "title": "Cheshire Live - Macclesfield",
+    "url": "https://www.cheshire-live.co.uk/all-about/macclesfield?service=rss",
+    "note": "",
+    "group": "C"
+  },
+  {
+    "title": "Cory Dransfeldt",
+    "url": "https://coryd.dev/feed.xml",
+    "note": "",
+    "group": "C"
+  },
+  {
+    "title": "CSS { In Real Life }",
+    "url": "https://css-irl.info/rss.xml",
+    "note": "",
+    "group": "C"
+  },
+  {
+    "title": "Cubicgarden.com…",
+    "url": "https://cubicgarden.com/feed/",
+    "note": "",
+    "group": "C"
+  },
+  {
+    "title": "David Darnes",
+    "url": "https://darn.es/rss.xml",
+    "note": "",
+    "group": "D"
+  },
+  {
+    "title": "davidmn.org",
+    "url": "https://davidmn.org/index.xml",
+    "note": "",
+    "group": "D"
+  },
+  {
+    "title": "Denis Defreyne’s weeknotes",
+    "url": "https://denisdefreyne.com/feeds/weeknotes.xml",
+    "note": "",
+    "group": "D"
+  },
+  {
+    "title": "Diary Of Amy Rigby",
+    "url": "https://diaryofamyrigby.wordpress.com/feed/",
+    "note": "",
+    "group": "D"
+  },
+  {
+    "title": "Disappearing Moment",
+    "url": "https://newsletter.disappearingmoment.com/rss.xml",
+    "note": "",
+    "group": "D"
+  },
+  {
+    "title": "Elly Loel",
+    "url": "https://ellyloel.com/feed.atom",
+    "note": "",
+    "group": "E"
+  },
+  {
+    "title": "Eric Bailey",
+    "url": "https://ericwbailey.website/feed/feed.xml",
+    "note": "",
+    "group": "E"
+  },
+  {
+    "title": "Ethan Marcotte’s website",
+    "url": "https://ethanmarcotte.com/wrote/feed.xml",
+    "note": "",
+    "group": "E"
+  },
+  {
+    "title": "Fatherly",
+    "url": "https://www.fatherly.com/rss",
+    "note": "",
+    "group": "F"
+  },
+  {
+    "title": "fberriman",
+    "url": "https://fberriman.com/feed/",
+    "note": "",
+    "group": "F"
+  },
+  {
+    "title": "Fix The News",
+    "url": "https://fixthenews.com/rss/",
+    "note": "",
+    "group": "F"
+  },
+  {
+    "title": "fLaMEdFURY :: my collection of stuff",
+    "url": "https://flamedfury.com/feed.xml",
+    "note": "",
+    "group": "F"
+  },
+  {
+    "title": "Forking Mad",
+    "url": "https://forkingmad.uk/feed.atom",
+    "note": "",
+    "group": "F"
+  },
+  {
+    "title": "FRAME TRAVEL ROAM CAPTURE",
+    "url": "https://ftrc.blog/feed/",
+    "note": "",
+    "group": "F"
+  },
+  {
+    "title": "Freya Vie",
+    "url": "https://freyavie.blog/feed/",
+    "note": "",
+    "group": "F"
+  },
+  {
+    "title": "Frills",
+    "url": "https://frills.dev/all.xml",
+    "note": "",
+    "group": "F"
+  },
+  {
+    "title": "Go Make Things",
+    "url": "https://gomakethings.com/feed/index.xml",
+    "note": "",
+    "group": "G"
+  },
+  {
+    "title": "Good News",
+    "url": "https://goodnews.eu/en/feed/",
+    "note": "",
+    "group": "G"
+  },
+  {
+    "title": "HAD",
+    "url": "https://www.havehashad.com/feed",
+    "note": "",
+    "group": "H"
+  },
+  {
+    "title": "Hearing Things",
+    "url": "https://www.hearingthings.co/latest/rss/",
+    "note": "",
+    "group": "H"
+  },
+  {
+    "title": "Heather Buchel",
+    "url": "https://heather-buchel.com/feed/feed.xml",
+    "note": "",
+    "group": "H"
+  },
+  {
+    "title": "Hello Computer",
+    "url": "https://hellocomputer.co/feed/",
+    "note": "",
+    "group": "H"
+  },
+  {
+    "title": "Henry Leach",
+    "url": "https://www.henryleach.com/index.xml",
+    "note": "",
+    "group": "H"
+  },
+  {
+    "title": "Infrequently Noted",
+    "url": "https://infrequently.org/feed/",
+    "note": "",
+    "group": "I"
+  },
+  {
+    "title": "Ironic Sans",
+    "url": "https://ironicsans.substack.com/feed",
+    "note": "",
+    "group": "I"
+  },
+  {
+    "title": "Is My Kid the Asshole?",
+    "url": "https://melindawmoyer.substack.com/feed",
+    "note": "",
+    "group": "I"
+  },
+  {
+    "title": "Jim Nielsen’s Blog",
+    "url": "https://blog.jim-nielsen.com/feed.xml",
+    "note": "",
+    "group": "J"
+  },
+  {
+    "title": "Joelchrono’s Blog",
+    "url": "https://joelchrono.xyz/feed.xml",
+    "note": "",
+    "group": "J"
+  },
+  {
+    "title": "Josh Collinsworth",
+    "url": "https://joshcollinsworth.com/api/rss.xml",
+    "note": "",
+    "group": "J"
+  },
+  {
+    "title": "jwz",
+    "url": "https://cdn.jwz.org/blog/feed/",
+    "note": "",
+    "group": "J"
+  },
+  {
+    "title": "The Jolly Teapot",
+    "url": "https://thejollyteapot.com/feed.rss",
+    "note": "",
+    "group": "T"
+  },
+  {
+    "title": "kenan.fyi",
+    "url": "https://kenan.fyi/rss.xml",
+    "note": "",
+    "group": "K"
+  },
+  {
+    "title": "Kev Quirk",
+    "url": "https://kevquirk.com/feed",
+    "note": "",
+    "group": "K"
+  },
+  {
+    "title": "Kobo Blog",
+    "url": "https://www.kobo.com/blog/rss.xml",
+    "note": "",
+    "group": "K"
+  },
+  {
+    "title": "Konstantin Tutsch",
+    "url": "https://konstantintutsch.com/feed.xml",
+    "note": "",
+    "group": "K"
+  },
+  {
+    "title": "Lene Saile - Web Development Blog",
+    "url": "https://www.lenesaile.com/en/feed.xml",
+    "note": "",
+    "group": "L"
+  },
+  {
+    "title": "LewisDale.dev",
+    "url": "https://lewisdale.dev/atom.xml",
+    "note": "",
+    "group": "L"
+  },
+  {
+    "title": "Light Stalking",
+    "url": "https://www.lightstalking.com/feed/",
+    "note": "",
+    "group": "L"
+  },
+  {
+    "title": "liminal web",
+    "url": "https://www.liminalweb.site/feed/",
+    "note": "",
+    "group": "L"
+  },
+  {
+    "title": "Live Laugh Blog",
+    "url": "https://livelaugh.blog/rss.xml",
+    "note": "",
+    "group": "L"
+  },
+  {
+    "title": "localghost.dev",
+    "url": "https://localghost.dev/feed.xml",
+    "note": "",
+    "group": "L"
+  },
+  {
+    "title": "Lucy Bellwood",
+    "url": "https://lucybellwood.com/feed/",
+    "note": "",
+    "group": "L"
+  },
+  {
+    "title": "dr molly tov",
+    "url": "https://drmollytov.bearblog.dev/feed/",
+    "note": "",
+    "group": "D"
+  },
+  {
+    "title": "Magazine on Lomography",
+    "url": "https://www.lomography.com/magazine.atom",
+    "note": "",
+    "group": "M"
+  },
+  {
+    "title": "Maggie Appleton",
+    "url": "https://maggieappleton.com/rss.xml",
+    "note": "",
+    "group": "M"
+  },
+  {
+    "title": "Manu Feed",
+    "url": "https://manuelmoreale.com/feed/rss",
+    "note": "",
+    "group": "M"
+  },
+  {
+    "title": "maya.land",
+    "url": "https://maya.land/feed.xml",
+    "note": "",
+    "group": "M"
+  },
+  {
+    "title": "Mayank",
+    "url": "https://www.mayank.co/blog/rss.xml",
+    "note": "",
+    "group": "M"
+  },
+  {
+    "title": "Melanie Richards: blog",
+    "url": "https://melanie-richards.com/feed.xml",
+    "note": "",
+    "group": "M"
+  },
+  {
+    "title": "Melinda Seckington",
+    "url": "https://www.seckington.com/rss/",
+    "note": "",
+    "group": "M"
+  },
+  {
+    "title": "melkat.blog",
+    "url": "https://melkat.blog/rss.xml",
+    "note": "",
+    "group": "M"
+  },
+  {
+    "title": "Minutes to Midnight",
+    "url": "https://minutestomidnight.co.uk/feed.xml",
+    "note": "",
+    "group": "M"
+  },
+  {
+    "title": "Miriam Suzanne: Recent Blog Posts",
+    "url": "https://www.oddbird.net/feed.atom",
+    "note": "",
+    "group": "M"
+  },
+  {
+    "title": "Multiline Comment",
+    "url": "https://multiline.co/mment/feed.xml",
+    "note": "",
+    "group": "M"
+  },
+  {
+    "title": "Mūrugai.com",
+    "url": "https://murugai.com/feed.xml",
+    "note": "",
+    "group": "M"
+  },
+  {
+    "title": "My Journey Into Photography",
+    "url": "https://jimgravesphoto.blogspot.com/feeds/posts/default",
+    "note": "",
+    "group": "M"
+  },
+  {
+    "title": "The Mancorialist",
+    "url": "https://themancorialist.tumblr.com/rss",
+    "note": "",
+    "group": "T"
+  },
+  {
+    "title": "Neil's blog",
+    "url": "https://neilzone.co.uk/index.xml",
+    "note": "",
+    "group": "N"
+  },
+  {
+    "title": "Neoliberal capitalist real estate dystopia hellscape",
+    "url": "https://unteriors.tumblr.com/rss",
+    "note": "",
+    "group": "N"
+  },
+  {
+    "title": "Nick Lewis freelance web developer",
+    "url": "https://nicklewis.dev/feed/",
+    "note": "",
+    "group": "N"
+  },
+  {
+    "title": "Nicola Losito",
+    "url": "https://nicolalosito.it/feed/",
+    "note": "",
+    "group": "N"
+  },
+  {
+    "title": "NingNarrative",
+    "url": "https://blog.ningnarrative.com/feed.json",
+    "note": "",
+    "group": "N"
+  },
+  {
+    "title": "niqwithq",
+    "url": "https://niqwithq.com/feed.xml",
+    "note": "",
+    "group": "N"
+  },
+  {
+    "title": "NME",
+    "url": "https://www.nme.com/feed",
+    "note": "",
+    "group": "N"
+  },
+  {
+    "title": "North West Bylines",
+    "url": "https://northwestbylines.co.uk/feed/",
+    "note": "",
+    "group": "N"
+  },
+  {
+    "title": "Numeric Citizen",
+    "url": "https://blog.numericcitizen.me/feed.xml",
+    "note": "",
+    "group": "N"
+  },
+  {
+    "title": "Oatmeal",
+    "url": "https://eli.li/feed.rss",
+    "note": "",
+    "group": "O"
+  },
+  {
+    "title": "Obsidian Urbex Photography | Urban Exploration | Abandoned Locations",
+    "url": "https://www.obsidianurbexphotography.com/feed/",
+    "note": "",
+    "group": "O"
+  },
+  {
+    "title": "Oh Hello Ana",
+    "url": "https://ohhelloana.blog/feed.xml",
+    "note": "",
+    "group": "O"
+  },
+  {
+    "title": "PetaPixel",
+    "url": "https://petapixel.com/feed",
+    "note": "",
+    "group": "P"
+  },
+  {
+    "title": "Photographer's log",
+    "url": "http://www.victorbezrukov.com/feed/",
+    "note": "",
+    "group": "P"
+  },
+  {
+    "title": "Piccalilli - All content",
+    "url": "https://piccalil.li/feed.xml",
+    "note": "",
+    "group": "P"
+  },
+  {
+    "title": "Pixel Envy",
+    "url": "https://pxlnv.com/feed/json/",
+    "note": "",
+    "group": "P"
+  },
+  {
+    "title": "Rach Smith",
+    "url": "https://rachsmith.com/rss/",
+    "note": "",
+    "group": "R"
+  },
+  {
+    "title": "Rachel Breeze",
+    "url": "https://www.rachelbreeze.dev/blogs/rss.xml",
+    "note": "",
+    "group": "R"
+  },
+  {
+    "title": "Reed Piernock",
+    "url": "https://reedcodes.com/feed.xml",
+    "note": "",
+    "group": "R"
+  },
+  {
+    "title": "RektMag",
+    "url": "https://www.rektmag.net/home?format=rss",
+    "note": "",
+    "group": "R"
+  },
+  {
+    "title": "rinsemiddlebliss",
+    "url": "https://rinsemiddlebliss.com/feed/feed.xml",
+    "note": "",
+    "group": "R"
+  },
+  {
+    "title": "Robb Knight",
+    "url": "https://rknight.me/feed.xml",
+    "note": "",
+    "group": "R"
+  },
+  {
+    "title": "Robert Birming",
+    "url": "https://birming.com/feed?q=posts",
+    "note": "",
+    "group": "R"
+  },
+  {
+    "title": "Robin Rendle",
+    "url": "https://www.robinrendle.com/feed.xml",
+    "note": "",
+    "group": "R"
+  },
+  {
+    "title": "Sara Joy",
+    "url": "https://sarajoy.dev/rss.xml",
+    "note": "",
+    "group": "S"
+  },
+  {
+    "title": "Shoot It With Film",
+    "url": "https://shootitwithfilm.com/feed/",
+    "note": "",
+    "group": "S"
+  },
+  {
+    "title": "Sia Karamalegos | Newsletter",
+    "url": "https://sia.codes/feed/news.xml",
+    "note": "",
+    "group": "S"
+  },
+  {
+    "title": "Silvia Maggi Design",
+    "url": "https://silviamaggidesign.com/feed.xml",
+    "note": "",
+    "group": "S"
+  },
+  {
+    "title": "Silvia Maggi",
+    "url": "https://silviamaggi.co.uk/feed.xml",
+    "note": "",
+    "group": "S"
+  },
+  {
+    "title": "Silvia Maggi Photography",
+    "url": "https://silviamaggiphotography.com/feed.xml",
+    "note": "",
+    "group": "S"
+  },
+  {
+    "title": "Simon Willison's Weblog",
+    "url": "https://simonwillison.net/atom/everything/",
+    "note": "",
+    "group": "S"
+  },
+  {
+    "title": "Socialist Worker",
+    "url": "https://socialistworker.co.uk/feed/",
+    "note": "",
+    "group": "S"
+  },
+  {
+    "title": "Spyglass",
+    "url": "https://spyglass.org/rss/",
+    "note": "",
+    "group": "S"
+  },
+  {
+    "title": "starbreaker.org: everything",
+    "url": "https://starbreaker.org/feeds/everything.xml",
+    "note": "",
+    "group": "S"
+  },
+  {
+    "title": "Steph Ango",
+    "url": "https://stephango.com/feed.xml",
+    "note": "",
+    "group": "S"
+  },
+  {
+    "title": "Stephanie Eckles",
+    "url": "https://thinkdobecreate.com/feed",
+    "note": "",
+    "group": "S"
+  },
+  {
+    "title": "Steve Messer // Product manager",
+    "url": "https://visitmy.website/feed.xml",
+    "note": "",
+    "group": "S"
+  },
+  {
+    "title": "Super Ordinary Life",
+    "url": "https://superordinarylife.substack.com/feed",
+    "note": "",
+    "group": "S"
+  },
+  {
+    "title": "sweater weather",
+    "url": "https://blgtylr.substack.com/feed",
+    "note": "",
+    "group": "S"
+  },
+  {
+    "title": "swissmiss",
+    "url": "https://www.swiss-miss.com/feed",
+    "note": "",
+    "group": "S"
+  },
+  {
+    "title": "Sylvia's Studio",
+    "url": "https://sylvia.studio/posts_feed",
+    "note": "",
+    "group": "S"
+  },
+  {
+    "title": "Technovia",
+    "url": "https://ianbetteridge.com/feed/",
+    "note": "",
+    "group": "T"
+  },
+  {
+    "title": "Terence Eden’s Blog",
+    "url": "https://shkspr.mobi/blog/feed/atom/",
+    "note": "",
+    "group": "T"
+  },
+  {
+    "title": "This day’s portion (a blog from Leon Paternoster)",
+    "url": "https://www.thisdaysportion.com/feed/index.xml",
+    "note": "",
+    "group": "T"
+  },
+  {
+    "title": "Thomas Rigby",
+    "url": "https://thomasrigby.com/feed.xml",
+    "note": "",
+    "group": "T"
+  },
+  {
+    "title": "Thord D. Hedengren",
+    "url": "https://bored.horse/feed.xml",
+    "note": "",
+    "group": "T"
+  },
+  {
+    "title": "Twelvety",
+    "url": "https://www.twelvety.net/feed.rss",
+    "note": "",
+    "group": "T"
+  },
+  {
+    "title": "Unstamatic",
+    "url": "https://unstamatic.com/feed/",
+    "note": "",
+    "group": "U"
+  },
+  {
+    "title": "Veronique",
+    "url": "https://veronique.ink/feed/?type=rss",
+    "note": "",
+    "group": "V"
+  },
+  {
+    "title": "VOCAL GIRLS",
+    "url": "https://www.vocalgirls.com/content?format=rss",
+    "note": "",
+    "group": "V"
+  },
+  {
+    "title": "The Wallflower Digest",
+    "url": "https://thewallflowerdigest.co.uk/feed/",
+    "note": "",
+    "group": "T"
+  },
+  {
+    "title": "The website of Alice Bartlett",
+    "url": "https://alicebartlett.co.uk/feed.xml",
+    "note": "",
+    "group": "T"
+  },
+  {
+    "title": "Waiter Rant",
+    "url": "https://www.waiterrant.net/feed/",
+    "note": "",
+    "group": "W"
+  },
+  {
+    "title": "Walknotes",
+    "url": "https://walknotes.com/feed/",
+    "note": "",
+    "group": "W"
+  },
+  {
+    "title": "Web3 is going just great",
+    "url": "https://web3isgoinggreat.com/feed.xml",
+    "note": "",
+    "group": "W"
+  },
+  {
+    "title": "wreckage/salvage",
+    "url": "https://www.wrecka.ge/rss/",
+    "note": "",
+    "group": "W"
+  },
+  {
+    "title": "xkcd.com",
+    "url": "https://xkcd.com/rss.xml",
+    "note": "",
+    "group": "X"
+  },
+  {
+    "title": "Zach Leatherman",
+    "url": "https://www.zachleat.com/web/feed/",
+    "note": "",
+    "group": "Z"
+  }
+]

@@ -1,0 +1,16 @@
+---
+pagination:
+  data: blogs
+  size: 1
+  alias: feed
+  permalink: /
+eleventyComputed:
+  permalink: /feed/{{ feed.title | slug }}/
+---
+
+{% extends "layouts/base.njk" %} {% block title %}{{ feed.title }}{% endblock %}
+{% block sidebar %} {% endblock %} {% block content %}
+
+<h1>{{ feed.title }}</h1>
+<p>{{ feed.note }}</p>
+{% endblock %}

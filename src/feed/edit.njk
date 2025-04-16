@@ -1,0 +1,15 @@
+{% extends "layouts/base.njk" %} {% block head %}
+<title>Edit Feed</title>
+<link rel="stylesheet" href="/css/styles.css" />
+{% endblock %} {% block content %}
+<h1>Edit Feed</h1>
+<form id="edit-feed-form">
+  <label for="feed-title">Feed Title:</label>
+  <input type="text" id="feed-title" name="feed-title" required />
+
+  <label for="feed-content">Feed Content:</label>
+  <textarea id="feed-content" name="feed-content" required></textarea>
+
+  <button type="submit">Save Changes</button>
+</form>
+{% endblock %}

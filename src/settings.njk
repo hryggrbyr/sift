@@ -1,0 +1,19 @@
+{% extends "layouts/base.njk" %} {% block head %}
+<title>Settings</title>
+<link rel="stylesheet" href="/css/styles.css" />
+{% endblock %} {% block sidebar %}
+<p>this is the sidebar</p>
+{% endblock %} {% block content %}
+<main>
+  <h1>Settings</h1>
+  <form action="/settings" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+
+    <button type="submit">Save Settings</button>
+  </form>
+</main>
+{% endblock %}

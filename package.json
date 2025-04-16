@@ -1,24 +1,16 @@
 {
-  "name": "sift",
+  "name": "eleventy-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Eleventy project using Nunjucks templating, vanilla CSS, and minimal client-side JavaScript.",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "esbuild ./script.js --outdir=public --bundle --platform=browser --target=es6",
-    "start": "node server.js"
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "start": "npm run build && npm run serve"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "esbuild": "^0.19.0"
-  },
-  "dependencies": {
-    "esbuild-loader": "^4.3.0",
-    "express": "^5.1.0",
-    "fs": "^0.0.1-security",
-    "node-fetch": "^3.3.2"
+    "@11ty/eleventy": "^1.0.0"
   }
 }

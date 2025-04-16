@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}My Eleventy Project{% endblock %}</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    {% include "partials/header.njk" %}
+
+    <div class="layout">
+      <aside>
+        <div class="sidebar-section">
+          <div class="el-text-button">
+            <p><strong>Read Later</strong></p>
+            <a class="button" href="/read-later">View</a>
+          </div>
+        </div>
+        <div class="sidebar-section">
+          <div class="el-text-button">
+            <p><strong>Feeds</strong></p>
+            <button class="button">Refresh All</button>
+          </div>
+          {% include "partials/groupedFeeds.njk" %}
+        </div>
+        {% block sidebar %} {% endblock %}
+        <div class="sidebar-section">
+          <p><strong>Profile</strong></p>
+          <em>Thomas Rigby (hryggrbyr)</em>
+        </div>
+        <div class="sidebar-section">
+          <p><strong>Settings</strong></p>
+          <a href="/settings">Edit settings</a>
+        </div>
+      </aside>
+      <main>{% block content %}{% endblock %}</main>
+    </div>
+
+    {% include "partials/footer.njk" %}
+
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+---
+title: "{{ group.name }}"
+description: "Welcome to the {{ group.name }} group page."
+pagination:
+  data: groups
+  size: 1
+  alias: group
+  permalink: /
+eleventyComputed:
+  permalink: /groups/{{ group.name | slug }}/
+---
+
+{% extends "layouts/base.njk" %} {% block title %}{{title}}{% endblock %} {%
+block sidebar %} {% endblock %} {% block content %}
+
+<h1>{{ group.name }}</h1>
+<p>Welcome to the {{ group.name }} group page.</p>
+
+<ul>
+  {% for feed in group.feeds %}
+  <li class="el-text-button">
+    <div>
+      <h2>{{ feed.title }}</h2>
+      <p>{{ feed.note }}</p>
+    </div>
+    <a class="button" href="{{ feed.url }}">Read More</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}
