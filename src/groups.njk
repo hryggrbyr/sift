@@ -7,7 +7,7 @@ pagination:
   alias: group
   permalink: /
 eleventyComputed:
-  permalink: /groups/{{ group.name | slug }}/
+  permalink: /groups/{{ group.name | slugify }}/
 ---
 
 {% extends "layouts/base.njk" %} {% block title %}{{title}}{% endblock %} {%
@@ -23,7 +23,7 @@ block sidebar %} {% endblock %} {% block content %}
       <h2>{{ feed.title }}</h2>
       <p>{{ feed.note }}</p>
     </div>
-    <a class="button" href="/feed/{{ feed.title | slug }}">View</a>
+    <a class="button" href="/feed/{{ feed.title | slugify }}">View</a>
   </li>
   {% endfor %}
 </ul>

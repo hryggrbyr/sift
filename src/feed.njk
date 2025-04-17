@@ -5,7 +5,7 @@ pagination:
   alias: feed
   permalink: /
 eleventyComputed:
-  permalink: /feed/{{ feed.title | slug }}/
+  permalink: /feed/{{ feed.title | slugify }}/
 ---
 
 {% extends "layouts/base.njk" %} {% block title %}{{ feed.title }}{% endblock %}

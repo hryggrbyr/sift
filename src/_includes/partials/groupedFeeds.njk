@@ -5,7 +5,7 @@
       <p><strong>{{ group }}</strong></p>
       <div class="button-group">
         <button class="button" data-open>Open</button>
-        <a class="button" href="/groups/{{ group | slug }}/">View</a>
+        <a class="button" href="/groups/{{ group | slugify }}/">View</a>
       </div>
     </div>
   </summary>
@@ -20,7 +20,7 @@
           {% endif %}
         {% endfor %}
         
-        <a class="button" href="/feed/{{ item.title | slug }}">View</a>
+        <a class="button" href="/feed/{{ item.title | slugify }}">View</a>
       </div>
     </li>
     {% endfor %}
