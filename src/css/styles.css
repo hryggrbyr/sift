@@ -233,3 +233,20 @@ article.read {
   opacity: 0.95;
   color: dimgray;
 }
+
+
+.gutters {
+  padding-inline: 2rem;
+}
+
+.spacing {
+  padding-block: 2rem;
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  color: var(--accent-tint);
+}
