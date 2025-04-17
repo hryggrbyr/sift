@@ -1,9 +1,9 @@
 :root {
   color-scheme: dark light;
-  --accent: light-dark(teal, goldenrod);
-  --accent-tint: light-dark(cyan, yellow);
-  --background: light-dark(#eee, #222);
-  --foreground: light-dark(#222, #eee);
+  --accent: light-dark(#F6C28B, #5296A5);
+  --accent-tint: light-dark(#FCD7AD, #82DDF0);
+  --background: light-dark(#F8F4F9, #1F363D);
+  --foreground: light-dark(#1F363D, #F8F4F9);
 }
 
 form {
@@ -111,17 +111,26 @@ input[type="submit"]:hover {
   flex-direction: column;
 }
 
-.layout aside .sidebar-section:first-child {
-  margin-block-start: auto;
-}
-
 .layout aside .sidebar-section:not(:first-child) {
   border-top: 2px solid var(--accent);
   margin-block-start: 2rem;
 }
 
+p {
+  max-width: 67ch;
+}
+
 summary {
   display: block !important;
+}
+
+details {
+  max-height: fit-content;
+  transition: max-height 0.25s ease-in;
+}
+
+details[open] {
+  max-height: fit-content;
 }
 
 details+details {
@@ -205,12 +214,22 @@ a.button {
   background-color: var(--accent-tint);
   color: var(--background);
   border-radius: 100%;
-  width: 2ch;
+  width: 2rem;
   aspect-ratio: 1/1;
   display: grid;
   place-items: center;
   line-height: 1;
+  font-size: 0.6rem;
   font-style: normal;
   font-variant-numeric: tabular-nums;
   flex-shrink: 0;
+}
+
+article.unread h2 {
+  color: var(--accent-tint);
+}
+
+article.read {
+  opacity: 0.95;
+  color: dimgray;
 }

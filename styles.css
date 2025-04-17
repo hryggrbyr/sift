@@ -38,3 +38,11 @@ body {
 .sidebar summary button:first-child {
   margin-inline-start: auto;
 }
+
+article.unread {
+  font-size: 1.25em;
+}
+
+article.read {
+  opacity: 0.5;
+}

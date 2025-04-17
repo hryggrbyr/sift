@@ -23,7 +23,7 @@ block sidebar %} {% endblock %} {% block content %}
       <h2>{{ feed.title }}</h2>
       <p>{{ feed.note }}</p>
     </div>
-    <a class="button" href="{{ feed.url }}">Read More</a>
+    <a class="button" href="/feed/{{ feed.title | slug }}">View</a>
   </li>
   {% endfor %}
 </ul>

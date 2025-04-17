@@ -13,4 +13,26 @@ eleventyComputed:
 
 <h1>{{ feed.title }}</h1>
 <p>{{ feed.note }}</p>
+<section style="display: flex; gap: 1rem; flex-wrap: wrap;">
+  {% for blog in rss %}
+    {% if blog.title == feed.title %}
+      {% for article in blog.items %}
+        <article class="{% if article.isNew %}unread{% else %}read{% endif %}" style="flex-basis: 100%;">
+          <h2>
+            {% if article.isNew %}
+              <i data-unread>!</i>
+            {% endif %}
+            {{ article.title }}
+          </h2>
+          <time datetime="{{ article.isoDate }}">{{ article.pubDate | humanReadableDate }}</time>
+          <a href="{{ article.link }}">Read original</a>
+          <details>
+            <summary><p>{{ article.contentSnippet | safe | truncate }}&hellip;</p></summary>  
+            {{ article.content | safe }}
+          </details>
+        </article>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+  </section>
 {% endblock %}

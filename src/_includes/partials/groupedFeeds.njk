@@ -14,7 +14,12 @@
     <li>
       <div class="el-text-button">
         <p>{{ item.title }}</p>
-        <i data-unread>7</i>
+        {% for blog in rss %}
+          {% if blog.title == item.title %}
+          <i data-unread>{{ blog.items | length }}</i>
+          {% endif %}
+        {% endfor %}
+        
         <a class="button" href="/feed/{{ item.title | slug }}">View</a>
       </div>
     </li>
